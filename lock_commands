@@ -1,0 +1,11 @@
+scripts/i3lock-fancy
+scripts/pixi.sh
+i3lock -u -e -i pics/1.png
+i3lock -u -e -i pics/2.png
+i3lock -u -e -i pics/3.png
+i3lock -u -e -i pics/4.png
+i3lock -u -e -i pics/5.png
+i3lock -u -e -i pics/6.png
+i3lock -u -e -i pics/7.png
+i3lock -u -e -i pics/8.png
+i3lock -u -e -i pics/9.png

@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+import random
+import os
+
+current_dir = os.path.dirname(os.path.realpath(__file__))
+os.chdir(current_dir)
+
+def random_lock():
+    lines = open('lock_commands').read().splitlines()
+    myline =random.choice(lines)
+    os.system(myline)
+
+random_lock()
