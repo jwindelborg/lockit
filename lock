@@ -6,6 +6,7 @@ import os
 current_dir = os.path.dirname(os.path.realpath(__file__))
 os.chdir(current_dir)
 
+
 def log(line):
     f = open('logfile', 'w')
     f.write(line + '\n')
@@ -18,4 +19,6 @@ def random_lock():
     os.system(myline)
     log(myline)
 
-random_lock()
+    
+if __name__ == '__main__':
+    random_lock()
